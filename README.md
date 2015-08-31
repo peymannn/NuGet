@@ -39,7 +39,7 @@ Kütüphanemizi kaydettikten sonra yayınlamak için NuGet  hesabına sahip olma
 Kayıt olduktan sonra giriş yapıp **Upload Package** seçeneğini tıklayarak dosyaları yükleyebilirsiniz.
 
 Ayrıca Vistual studio 2015 Nuget api v3 kullanmakta ve bu bazı paket yüklemelerine sorun çıkarabilir bunun için  **Tools--> Nuget Package Manager --> Package Manager Settings --> Package Sources --> Available package sources** okları takip etmeli ve yeni Nuget sources eklemelisiniz. Sources alanına https://www.nuget.org/api/v2/   
-adresini yazmalıyız. Böylelikle pakat yükleme, sorunsuz şekilde hallolur.
+adresini yazmalıyız. Böylelikle paket yükleme, sorunsuz şekilde hallolur.
 
 [Buraya tıklayarak](http://nugetmusthaves.com/ ) en popüler NuGet paketlerini bulabilirsiniz.
 
