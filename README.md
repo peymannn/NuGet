@@ -1,10 +1,10 @@
 # NuGet
 ##Nuget nedir?
-Microsoft geliştirme platformu için 2010’da vistual studio da piyasaya sunulan ve 2012 ile kendiliğinden yüklü gelen NUGET ; Visual Studio projemiz için eklemek istediğimiz 3. parti paket(sonradan eklenilebilen programlar; AjaxControlToolkit, Jquery, Facebook, log4net vb) ve DLL’leri (Dynamic Link Library)  bizim yerimize otomatik olarak ekleyen ücretsiz  ve açık kaynak paket yöneticisidir. **Nuget Gallery** paket yönetim uygulaması açık kaynak kodlu olduğu için kendi kütüphanenizi oluşturabilir,  nuget galeriye koyabilirsiniz.
+Microsoft geliştirme platformu için 2010’da vistual studio da piyasaya sunulan ve 2012 ile default olarak yüklü gelen NUGET ; Visual Studio projemiz için eklemek istediğimiz 3. parti paket(sonradan eklenilebilen programlar; AjaxControlToolkit, Jquery, Facebook, log4net vb) ve DLL’leri (Dynamic Link Library)  bizim yerimize otomatik olarak ekleyen ücretsiz  ve açık kaynak paket yöneticisidir. **Nuget Gallery** paket yönetim uygulaması açık kaynak kodlu olduğu için kendi kütüphanenizi oluşturabilir,  nuget galeriye koyabilirsiniz.
 ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/nuget1.png)
 
 ##Nuget nasıl kurulur?
-NuGet doğrudan Visual Studio içerisine entegre olarak çalışmaktadır. Nuget kurulumu iki şekilde sağlanmaktadır. İlki doğrudan [CodePlex] (http://nuget.codeplex.com/) üzerinden kurulum dosyasını indirerek kurabilirsiniz, diğer türlü Vistual Studio 2010 içinde **Tools**  seçeneğinde  **Extension Manager**’i   tıklarız ve nuget diye aratırsak çıkan Nuget Package Manager ‘in Download seçeneğini tıklayıp kurulumunu yapabiliriz.
+NuGet doğrudan Visual Studio içerisinde entegre olarak çalışmaktadır. Nuget kurulumu iki şekilde sağlanmaktadır. İlki doğrudan [CodePlex] (http://nuget.codeplex.com/) üzerinden kurulum dosyasını indirerek kurabilirsiniz, diğer türlü Vistual Studio 2010 içinde **Tools**  seçeneğinde  **Extension Manager**’i   tıklarız ve nuget diye aratırsak çıkan Nuget Package Manager ‘in Download seçeneğini tıklayıp kurulumunu yapabiliriz.
 ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1n%202.PNG)
 Vistual studio’yu yeniden başlatmanız gerekmektedir. 
 
@@ -35,7 +35,7 @@ Projenizin dosyalarından da eklendiğini görebilirsiniz.
 Karşımıza çıkan  **Package metadata** penceresindeki bilgileri kütüphane bilgilerine göre doldururuz. DLL dosyalarını koyabilmek için açılan pencerenin **Package contents** kısmında sağ tıklayıp  **Add Lib Folder**’a tıklarız ve **Lib**‘e sağ tıklayıp **Add existing File** dediğimizde DLL dosyalarını ekleyebiliyoruz.
 ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/Ekran%20Al%C4%B1nt%C4%B1s%C4%B17.PNG)
 
-Kütüphanemizi kaydettikten sonra yayınlamak için NuGet  hesabına sahip olmalıyız .[Buradan ](https://www.nuget.org/users/account/LogOn?returnUrl=%2FErrors%2F404%3Faspxerrorpath%3D%2Faccount%2FRegister) kayıt olabirsiniz.
+Kütüphanemizi kaydettikten sonra yayınlamak için NuGet  hesabına sahip olmalıyız .[Buradan ](https://www.nuget.org/users/account/LogOn?returnUrl=%2FErrors%2F404%3Faspxerrorpath%3D%2Faccount%2FRegister) kayıt olabilirsiniz.
 Kayıt olduktan sonra giriş yapıp **Upload Package** seçeneğini tıklayarak dosyaları yükleyebilirsiniz.
 
 Ayrıca Vistual studio 2015 Nuget api v3 kullanmakta ve bu bazı paket yüklemelerine sorun çıkarabilir bunun için  **Tools--> Nuget Package Manager --> Package Manager Settings --> Package Sources --> Available package sources** okları takip etmeli ve yeni Nuget sources eklemelisiniz. Sources alanına https://www.nuget.org/api/v2/   
