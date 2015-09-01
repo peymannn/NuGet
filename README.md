@@ -1,10 +1,11 @@
 # NuGet
 ##Nuget nedir?
-Microsoft geliştirme platformu için 2010’da Visual Studio da piyasaya sunulan ve 2012 ile default olarak yüklü gelen NUGET ; Visual Studio projemiz için eklemek istediğimiz 3. parti paket(sonradan eklenilebilen programlar; AjaxControlToolkit, Jquery, Facebook, log4net vb) ve DLL’leri (Dynamic Link Library)  bizim yerimize otomatik olarak ekleyen ücretsiz  ve açık kaynak paket yöneticisidir. **Nuget Gallery** paket yönetim uygulaması açık kaynak kodlu olduğu için kendi kütüphanenizi oluşturabilir **Nuget Gallery**'e  koyabilirsiniz.
+Microsoft geliştirme platformu için 2010’da Visual Studio'da piyasaya sunulan ve 2012 ile default olarak yüklü gelen NUGET, Visual Studio projemiz için eklemek istediğimiz 3. parti paket(sonradan eklenilebilen programlar; AjaxControlToolkit, Jquery, Facebook, log4net vb.) ve DLL’leri (Dynamic Link Library)  bizim yerimize otomatik olarak ekleyen ücretsiz  ve açık kaynak paket yöneticisidir. **Nuget Gallery** paket yönetim uygulaması açık kaynak kodlu olduğu için kendi kütüphanenizi oluşturabilir **Nuget Gallery**'e  koyabilirsiniz.
 ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/nuget1.png)
 
-##Nuget nasıl kurulur?
-NuGet doğrudan Visual Studio içerisinde entegre olarak çalışmaktadır. Nuget kurulumu iki şekilde sağlanmaktadır. İlki doğrudan [CodePlex] (http://nuget.codeplex.com/) üzerinden kurulum dosyasını indirerek kurabilirsiniz,ikinci olarak Visual Studio 2010 içinde **Tools**  seçeneğinde  **Extension Manager**’i   tıklarız ve nuget diye aratırsak çıkan Nuget Package Manager ‘in Download seçeneğini tıklayıp kurulumunu yapabilirsiniz.
+##Nuget Nasıl Kurulur?
+NuGet doğrudan Visual Studio içerisinde entegre olarak çalışmaktadır. Nuget kurulumu iki şekilde yapılabilir. 
+İlki doğrudan [CodePlex] (http://nuget.codeplex.com/) üzerinden kurulum dosyasını indirerek kurabilirsiniz.İkinci olarak Visual Studio 2010 içinde **Tools**  seçeneğinde  **Extension Manager**’i   tıklarız ve nuget diye aratırsak çıkan Nuget Package Manager ‘in Download butonuna tıklayıp kurulumunu yapabilirsiniz.
 ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1n%202.PNG)
 Visual Studio’yu yeniden başlatmanız gerekmektedir. 
 
@@ -38,7 +39,7 @@ Karşımıza çıkan  **Package metadata** penceresindeki bilgileri kütüphane 
 Kütüphanemizi kaydettikten sonra yayınlamak için NuGet  hesabına sahip olmalısınız. Eğer hesabınız yoksa [buradan ](https://www.nuget.org/users/account/LogOn?returnUrl=%2FErrors%2F404%3Faspxerrorpath%3D%2Faccount%2FRegister) kayıt olabilirsiniz.
 Kayıt olduktan sonra giriş yapıp **Upload Package** seçeneğini tıklayarak dosyaları yükleyebilirsiniz.
 
-Ayrıca Visual Studio 2015 Nuget API v3 kullanmakta ve bu bazı paket yüklemelerinde sorun çıkarabilir.Bunun için  **Tools--> Nuget Package Manager --> Package Manager Settings --> Package Sources --> Available package sources** oklarını takip etmeli ve yeni Nuget sources eklemelisiniz. Sources alanına https://www.nuget.org/api/v2/   
+Ayrıca Visual Studio 2015 Nuget API v3 kullanmakta ve bu bazı paket yüklemelerinde sorun çıkarabilir.Bunun için  **Tools--> Nuget Package Manager --> Package Manager Settings --> Package Sources --> Available package sources** sekmeleri takip etmeli ve yeni Nuget sources eklemelisiniz. Sources alanına https://www.nuget.org/api/v2/   
 adresini yazmalısınız. Böylelikle paket yüklemedeki  sorunu çözmüş olursunuz.
 
 [Buraya tıklayarak](http://nugetmusthaves.com/ ) en popüler NuGet paketlerini bulabilirsiniz.
