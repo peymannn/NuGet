@@ -4,11 +4,11 @@ Microsoft geliştirme platformu için 2010’da Visual Studio da piyasaya sunula
 ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/nuget1.png)
 
 ##Nuget nasıl kurulur?
-NuGet doğrudan Visual Studio içerisinde entegre olarak çalışmaktadır. Nuget kurulumu iki şekilde sağlanmaktadır. İlki doğrudan [CodePlex] (http://nuget.codeplex.com/) üzerinden kurulum dosyasını indirerek kurabilirsiniz, diğer türlü Visual Studio 2010 içinde **Tools**  seçeneğinde  **Extension Manager**’i   tıklarız ve nuget diye aratırsak çıkan Nuget Package Manager ‘in Download seçeneğini tıklayıp kurulumunu yapabiliriz.
+NuGet doğrudan Visual Studio içerisinde entegre olarak çalışmaktadır. Nuget kurulumu iki şekilde sağlanmaktadır. İlki doğrudan [CodePlex] (http://nuget.codeplex.com/) üzerinden kurulum dosyasını indirerek kurabilirsiniz,ikinci olarak Visual Studio 2010 içinde **Tools**  seçeneğinde  **Extension Manager**’i   tıklarız ve nuget diye aratırsak çıkan Nuget Package Manager ‘in Download seçeneğini tıklayıp kurulumunu yapabilirsiniz.
 ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1n%202.PNG)
 Visual Studio’yu yeniden başlatmanız gerekmektedir. 
 
-**NuGet Package Manager Console** kullanarak ya da **Add Library Package Reference** penceresinden yeni paketler yükleyebilir, güncelleyebilir veya kaldırabilirsiniz. **Add Library Package Reference** seçeneği sadece solution açık durumda iken kullanılabilir. 
+**NuGet Package Manager Console** kullanarak yada **Add Library Package Reference** penceresinden yeni paketler yükleyebilir, güncelleyebilir veya kaldırabilirsiniz. **Add Library Package Reference** seçeneği sadece solution açık durumda iken kullanılabilir. 
 * Gelin kullanımını bir örnekle  görelim:
 
 Önceden yazmış olduğumuz "banka_hesabı" programımızı açıp  **Tools --> Library Package Manager--> Manage NuGet Packages for Solution**   yollarını takip ediyoruz. Karşımıza çıkan aynı zamanda ihtiyacımız olan EntiyFramework ve bootstrap için **install** butonuna bastığımızda programımıza eklendiğini göreceksiniz.
@@ -29,10 +29,10 @@ Projemizin dosyalarından da eklendiğini görebilirsiniz.
 
  Daha fazla komuta  `get-help` komutu ile ulaşabilirsiniz.
  ##         Kendi Nuget Paketimizi nasıl yayınlarız?
- İlk önce geliştirdiğimiz kütüphaneyi Nuget‘e koyabilmemiz için [Nuget Package Explorer ](http://nuget.codeplex.com/downloads/get/clickOnce/NuGetPackageExplorer.application?releaseId=59864)‘ı indirip kurmamız gerekiyor sonra da karşımıza çıkan tablodan **Create a new package**‘ı tıklarız.
+ İlk önce geliştirdiğimiz kütüphaneyi Nuget‘e koyabilmemiz için [Nuget Package Explorer ](http://nuget.codeplex.com/downloads/get/clickOnce/NuGetPackageExplorer.application?releaseId=59864)‘ı indirip kurmamız gerekiyor. Sonra karşımıza çıkan tablodan **Create a new package**‘ı tıklamalıyız.
  ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/nugetexpolorer.PNG)
  
-Karşımıza çıkan  **Package metadata** penceresindeki bilgileri kütüphane bilgilerine göre doldururuz. DLL dosyalarını koyabilmek için açılan pencerenin **Package contents** kısmında sağ tıklayıp  **Add Lib Folder**’ı seçiyoruz ve **Lib**‘e sağ tıklayıp **Add existing File** dediğimizde DLL dosyalarını ekleyebiliyoruz.
+Karşımıza çıkan  **Package metadata** penceresindeki bilgileri kütüphane bilgilerine göre dolduruyoruz. DLL dosyalarını koyabilmek için açılan pencerenin **Package contents** kısmında sağ tıklayıp  **Add Lib Folder**’ı seçiyoruz ve **Lib**‘e sağ tıklayıp **Add existing File** dediğimizde DLL dosyalarını ekleyebiliyoruz.
 ![photo](https://github.com/peymannn/nugetPHOTO/blob/master/Ekran%20Al%C4%B1nt%C4%B1s%C4%B17.PNG)
 
 Kütüphanemizi kaydettikten sonra yayınlamak için NuGet  hesabına sahip olmalısınız. Eğer hesabınız yoksa [buradan ](https://www.nuget.org/users/account/LogOn?returnUrl=%2FErrors%2F404%3Faspxerrorpath%3D%2Faccount%2FRegister) kayıt olabilirsiniz.
